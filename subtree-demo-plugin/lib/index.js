@@ -5,8 +5,7 @@
 (function(plugins) {
   function DemoPlugin() {
     console.log("Yay plugin!");
-    console.log("modificacion arbitraria");
-    console.log("modificacion arbitraria 2")
+    console.log("modificacion arbitraria desde el plugin");
   }
 
   plugins.register(DemoPlugin);
